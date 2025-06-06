@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_COM_DATOS" targetNamespace="http://tempuri.org/DS_COM_DATOS.xsd" xmlns:mstns="http://tempuri.org/DS_COM_DATOS.xsd" xmlns="http://tempuri.org/DS_COM_DATOS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_COM_DATOS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_COM_DATOS" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_COM_DATOS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EPR_COM_ORDEN_PEDIDO_CAB" msprop:Generator_RowClassName="EPR_COM_ORDEN_PEDIDO_CABRow" msprop:Generator_RowEvHandlerName="EPR_COM_ORDEN_PEDIDO_CABRowChangeEventHandler" msprop:Generator_RowDeletedName="EPR_COM_ORDEN_PEDIDO_CABRowDeleted" msprop:Generator_RowDeletingName="EPR_COM_ORDEN_PEDIDO_CABRowDeleting" msprop:Generator_RowEvArgName="EPR_COM_ORDEN_PEDIDO_CABRowChangeEvent" msprop:Generator_TablePropName="EPR_COM_ORDEN_PEDIDO_CAB" msprop:Generator_RowChangedName="EPR_COM_ORDEN_PEDIDO_CABRowChanged" msprop:Generator_UserTableName="EPR_COM_ORDEN_PEDIDO_CAB" msprop:Generator_RowChangingName="EPR_COM_ORDEN_PEDIDO_CABRowChanging" msprop:Generator_TableClassName="EPR_COM_ORDEN_PEDIDO_CABDataTable" msprop:Generator_TableVarName="tableEPR_COM_ORDEN_PEDIDO_CAB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nuPed" msprop:Generator_UserColumnName="nuPed" msprop:Generator_ColumnPropNameInTable="nuPedColumn" msprop:Generator_ColumnPropNameInRow="nuPed" msprop:Generator_ColumnVarNameInTable="columnnuPed" type="xs:string" minOccurs="0" />
+              <xs:element name="coProvCli" msprop:Generator_UserColumnName="coProvCli" msprop:Generator_ColumnPropNameInTable="coProvCliColumn" msprop:Generator_ColumnPropNameInRow="coProvCli" msprop:Generator_ColumnVarNameInTable="columncoProvCli" type="xs:string" minOccurs="0" />
+              <xs:element name="deProvCli" msprop:Generator_UserColumnName="deProvCli" msprop:Generator_ColumnPropNameInTable="deProvCliColumn" msprop:Generator_ColumnPropNameInRow="deProvCli" msprop:Generator_ColumnVarNameInTable="columndeProvCli" type="xs:string" minOccurs="0" />
+              <xs:element name="tituloPed" msprop:Generator_ColumnPropNameInRow="tituloPed" msprop:Generator_ColumnPropNameInTable="tituloPedColumn" msprop:Generator_ColumnVarNameInTable="columntituloPed" msprop:Generator_UserColumnName="tituloPed" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EPR_COM_ORDEN_PEDIDO_DET" msprop:Generator_RowClassName="EPR_COM_ORDEN_PEDIDO_DETRow" msprop:Generator_RowEvHandlerName="EPR_COM_ORDEN_PEDIDO_DETRowChangeEventHandler" msprop:Generator_RowDeletedName="EPR_COM_ORDEN_PEDIDO_DETRowDeleted" msprop:Generator_RowDeletingName="EPR_COM_ORDEN_PEDIDO_DETRowDeleting" msprop:Generator_RowEvArgName="EPR_COM_ORDEN_PEDIDO_DETRowChangeEvent" msprop:Generator_TablePropName="EPR_COM_ORDEN_PEDIDO_DET" msprop:Generator_RowChangedName="EPR_COM_ORDEN_PEDIDO_DETRowChanged" msprop:Generator_UserTableName="EPR_COM_ORDEN_PEDIDO_DET" msprop:Generator_RowChangingName="EPR_COM_ORDEN_PEDIDO_DETRowChanging" msprop:Generator_TableClassName="EPR_COM_ORDEN_PEDIDO_DETDataTable" msprop:Generator_TableVarName="tableEPR_COM_ORDEN_PEDIDO_DET">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nuPed" msprop:Generator_UserColumnName="nuPed" msprop:Generator_ColumnPropNameInTable="nuPedColumn" msprop:Generator_ColumnPropNameInRow="nuPed" msprop:Generator_ColumnVarNameInTable="columnnuPed" type="xs:string" minOccurs="0" />
+              <xs:element name="item" msprop:Generator_UserColumnName="item" msprop:Generator_ColumnPropNameInTable="itemColumn" msprop:Generator_ColumnPropNameInRow="item" msprop:Generator_ColumnVarNameInTable="columnitem" type="xs:string" minOccurs="0" />
+              <xs:element name="coProd" msprop:Generator_UserColumnName="coProd" msprop:Generator_ColumnPropNameInTable="coProdColumn" msprop:Generator_ColumnPropNameInRow="coProd" msprop:Generator_ColumnVarNameInTable="columncoProd" type="xs:string" minOccurs="0" />
+              <xs:element name="deProd" msprop:Generator_UserColumnName="deProd" msprop:Generator_ColumnPropNameInTable="deProdColumn" msprop:Generator_ColumnPropNameInRow="deProd" msprop:Generator_ColumnVarNameInTable="columndeProd" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="EPR_COM_ORDEN_PEDIDO_CAB_EPR_COM_ORDEN_PEDIDO_DET" msdata:parent="EPR_COM_ORDEN_PEDIDO_CAB" msdata:child="EPR_COM_ORDEN_PEDIDO_DET" msdata:parentkey="nuPed" msdata:childkey="nuPed" msprop:Generator_UserParentTable="EPR_COM_ORDEN_PEDIDO_CAB" msprop:Generator_UserChildTable="EPR_COM_ORDEN_PEDIDO_DET" msprop:Generator_RelationVarName="relationEPR_COM_ORDEN_PEDIDO_CAB_EPR_COM_ORDEN_PEDIDO_DET" msprop:Generator_ChildPropName="GetEPR_COM_ORDEN_PEDIDO_DETRows" msprop:Generator_UserRelationName="EPR_COM_ORDEN_PEDIDO_CAB_EPR_COM_ORDEN_PEDIDO_DET" msprop:Generator_ParentPropName="EPR_COM_ORDEN_PEDIDO_CABRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

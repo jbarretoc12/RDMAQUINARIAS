@@ -1,0 +1,6 @@
+D:\Datos E\BK\Publicado\RDMAQUINARIAS\CAPA_NEGOCIOS\bin\Debug\CAPA_NEGOCIOS.dll
+D:\Datos E\BK\Publicado\RDMAQUINARIAS\CAPA_NEGOCIOS\bin\Debug\CAPA_NEGOCIOS.pdb
+D:\Datos E\BK\Publicado\RDMAQUINARIAS\CAPA_NEGOCIOS\obj\Debug\CAPA_NEGOCIOS.csproj.AssemblyReference.cache
+D:\Datos E\BK\Publicado\RDMAQUINARIAS\CAPA_NEGOCIOS\obj\Debug\CAPA_NEGOCIOS.csproj.CoreCompileInputs.cache
+D:\Datos E\BK\Publicado\RDMAQUINARIAS\CAPA_NEGOCIOS\obj\Debug\CAPA_NEGOCIOS.dll
+D:\Datos E\BK\Publicado\RDMAQUINARIAS\CAPA_NEGOCIOS\obj\Debug\CAPA_NEGOCIOS.pdb
